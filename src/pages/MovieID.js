@@ -12,7 +12,7 @@ const MovieID = () => {
     useEffect(() => {
         RapidAPI(`${id}`).then(data => setMovie(data))
         window.scrollTo(0,0)
-    }, [])
+    }, [id])
 
     return (
         <div className="movie">

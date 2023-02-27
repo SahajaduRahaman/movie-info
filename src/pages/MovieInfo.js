@@ -3,8 +3,6 @@ import MovieCards from "./MovieCards"
 
 const MovieInfo = ({nowPlaying, type}) => {
 
-  console.log(nowPlaying)
-
   return (
     <div className="movie__list">
       <h2 className="list__title">{(type ? type : "Now_Playing").toUpperCase()}</h2>
