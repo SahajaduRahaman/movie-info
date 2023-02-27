@@ -1,0 +1,40 @@
+.header {
+    margin: 0 2.5rem;
+    margin-left: 0px;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    border-bottom: 1px solid red;
+}
+
+.headerLeft, .headerRight {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover {
+    padding: 20px;
+    border-radius: 20px;
+    background-color:yellow;
+    color: red;
+}
+
+.header__icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
